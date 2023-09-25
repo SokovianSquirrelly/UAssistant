@@ -13,4 +13,7 @@ automating it.
 
 ## Dependencies
 
-<li>java.time.LocalDate - This was to get the current local date.
+<li>java.time.LocalDate - This is to get the current local date.
+<li>java.util.List - For a list
+<li>java.util.Set - For a set
+<li>javax.swing.* - For the UI
