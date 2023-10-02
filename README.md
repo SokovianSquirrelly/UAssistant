@@ -17,3 +17,7 @@ automating it.
 <li>java.util.List - For a list
 <li>java.util.Set - For a set
 <li>javax.swing.* - For the UI
+
+## Color Palette
+
+The palette can be found [here](https://coolors.co/78c0e0-449dd1-192bc2-150578-0e0e52).
