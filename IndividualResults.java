@@ -8,6 +8,10 @@ public class IndividualResults {
     private boolean isLessThanTwentyML;
     private boolean wasSentToLab;
 
+    public Client getClient() {
+        return client;
+    }
+
     public void reportNegative() {
         testResults = TestResults.NEGATIVE;
         positiveSubstances = null;
@@ -27,6 +31,14 @@ public class IndividualResults {
         isDiluteSample = false;
         isLessThanTwentyML = false;
         wasSentToLab = false;
+    }
+
+    public boolean isANoShow() {
+        return testResults == TestResults.NO_SHOW;
+    }
+
+    public boolean didFailToProduce() {
+        return testResults == TestResults.FAILED_TO_PRODUCE;
     }
 
     enum TestResults {

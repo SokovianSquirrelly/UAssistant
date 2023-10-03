@@ -3,6 +3,8 @@ public class UAForm {
     private Date testingDate;
 
     enum TestType {
-
+        I_CUP,
+        SIX_PANEL,
+        E37
     }
 }

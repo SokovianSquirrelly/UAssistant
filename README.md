@@ -14,10 +14,16 @@ automating it.
 ## Dependencies
 
 <li>java.time.LocalDate - This is to get the current local date.
-<li>java.util.List - For a list
-<li>java.util.Set - For a set
+<li>java.util.ArrayList - For lists
+<li>java.util.List - For lists
+<li>java.util.Set - For sets
 <li>javax.swing.* - For the UI
 
 ## Color Palette
 
 The palette can be found [here](https://coolors.co/78c0e0-449dd1-192bc2-150578-0e0e52).
+
+## Running the Application
+
+Because I'm too lazy to run the application from the terminal, I've found it easiest to navigate to Application.java and
+to simply run the file.
